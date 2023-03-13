@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=h1, initial-scale=1.0">
+    <title>GeekGirl</title>
+</head>
+<style>
+     body{
+        background-color: black;
+        color: white;
+    }
+    h1{
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 100;
+        font-size: 3.rem;
+
+    }
+    h2{
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 100;
+        padding: 20px;
+      
+    }
+     img{
+        display: block;
+        margin: 0 auto;
+        width: 300px;
+    }
+
+    div p{
+        line-height:1.5;
+        font-size: 20px;
+    }
+    div span{
+        text-decoration: underline;
+    }
+    a:hover{
+        cursor: pointer;  
+        
+    }
+    button{
+        /* display: block;
+        margin: 0 auto; */
+        font-size: 20px;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 100;
+        border: none;
+        border-radius: 6px;
+        padding: 15px 20px;
+        margin: 20px auto;
+        background-color: white; 
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); 
+        transition: all 2s ease-in-out; 
+    
+    }
+    button:hover{
+        opacity: 0.9;
+        cursor: pointer;
+    }
+    footer{
+        text-align: center;
+    }
+
+
+</style>
+<body>
+   <h1>
+    I LOVE TECH 💻!
+   </h1> 
+
+   <h2>
+    WHY TECH? <br> There Is So Much You Can Do With Tech. 
+   </h2>
+
+   <hr>
+
+   <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/070/133/original/IMG_8303.jpeg?1678027511" alt="GeekGirl Img"  >
+   
+   <hr>
+
+   <div class="container">
+    <p>
+    What Is A <strong>Geek</strong> <br> <em>noun</em> 
+    -A <strong>Geek</strong> is a person who is knowledgeable about and <span>obsessively</span>
+    interested in a particular subject,especially one that is technical . 
+    <br>
+    <em>verb </em>
+    -Engage in or disccus technical or computer related tasks <span>obsessively</span>
+    <br>
+   <br> <strong>Let Me Tell You More About <em>TECH</em></strong>
+   <br>Working in a technology-related field is beneficial for your career and your personal growth. <br>
+   It’s a fast-paced environment that offers a lot of challenges to your mind and creativity. <br>
+   There are different jobs in the tech industry, and each one of them is unique and interesting. <br>
+   According to Statistics, the technology and telecommunications industry is rapidly evolving as <br>
+   innovation and growth accelerate, and technology devices and infrastructures become smarter. <br>
+   As the technology industry expands, job opportunities will not only increase, but also skyrocket. <br> 
+   There are compelling reasons to consider a career in technology, as the industry offers a wide range <br>
+ of job opportunities, such as software engineer, web design, data science, and more. <br> The tech industry has 
+    become a very lucrative industry.So grab your seat in the industry too.
+   </p>
+
+   </div>
+
+   <a href="https://www.shecodes.io/workshop">Be A Geek Too</a>
+ 
+   <br><br>
+
+   <button class="geek">
+    👉🏻Click Here
+   </button>
+
+   <br><br>
+
+   <footer>This Page Is Built By <span>Emily Mokoena</span> </footer>
+
+   <script>
+    function open(){
+        let name = prompt("What is your name Geek ?");
+        let email = prompt("What is your email ?");
+        // let emoji =("whats your favorite programming language ?")
+      
+      
+        alert("Thank you " + name + "! we'll contact you by email,meanwhile find a seat in the tech spaces 😊");
+
+
+    }
+
+    let geek= document.querySelector(".geek");
+    geek.addEventListener("click",open);
+
+   </script>
+</body>
+</html>
